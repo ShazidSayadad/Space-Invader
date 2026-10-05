@@ -1,0 +1,64 @@
+# ==============================================================================
+# Visual Studio / C++ Gitignore for Space Invaders OOP
+# ==============================================================================
+
+# Visual Studio files & folders
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.opendb
+*.db
+
+# Build directories & intermediate outputs
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+[Bb]in/
+[Oo]bj/
+
+# Compiled object and intermediate files
+*.obj
+*.o
+*.pch
+*.ipch/
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.a
+*.res
+*.idb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+
+# Executables
+*.exe
+*.dll
+
+# Visual Studio Profiler & Diagnostics
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Crash dumps
+*.dmp
+*.mdmp
+
+# Temporary / Backup files
+*.tmp
+*.temp
+*~
+Backup*/
+
+# Windows / OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
